@@ -460,8 +460,24 @@ span {
   cursor :pointer;
   transition: 2ms;
 }
-@media screen {
-  
+@media screen and (max-width: 750px) {
+  .block{
+    flex-wrap: wrap;
+
+    width: 100%;
+  }
+  .block1{
+    width: 45%;
+  }
+  .block2{
+    width: 45%;
+  }
+  .block3{
+    width: 45%;
+  }
+  .block4{
+    width: 45%;
+  }
 }
 /* ------------------------------- */
 .parent {
